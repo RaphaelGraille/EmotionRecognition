@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		647FB5671DD78B3C000858AE /* faceDetection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 647FB5661DD78B3B000858AE /* faceDetection.cpp */; };
+		647FB56A1DD8F061000858AE /* dataBaseProcessing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 647FB5691DD8F061000858AE /* dataBaseProcessing.cpp */; };
+		647FB56C1DD8F1B3000858AE /* var.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 647FB56B1DD8F1B3000858AE /* var.cpp */; };
+		647FB5701DD91EBB000858AE /* trainSVM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 647FB56F1DD91EBB000858AE /* trainSVM.cpp */; };
+		64B02E311DD53D28009C2168 /* lbp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64B02E301DD53D28009C2168 /* lbp.cpp */; };
+		64B8DD611DDBCFB80001825F /* testSVM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64B8DD601DDBCFB80001825F /* testSVM.cpp */; };
+		64CDE2CB1DEA3D2F00B4A644 /* flandmark_detector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64CDE2C61DEA3D2F00B4A644 /* flandmark_detector.cpp */; };
+		64CDE2CC1DEA3D2F00B4A644 /* liblbp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64CDE2C81DEA3D2F00B4A644 /* liblbp.cpp */; };
+		64D41E771DCFF8C900F8C3CB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64D41E761DCFF8C900F8C3CB /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		64D41E711DCFF8C900F8C3CB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		647FB5661DD78B3B000858AE /* faceDetection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = faceDetection.cpp; sourceTree = "<group>"; };
+		647FB5681DD78BAD000858AE /* faceDetection.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = faceDetection.hpp; sourceTree = "<group>"; };
+		647FB5691DD8F061000858AE /* dataBaseProcessing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dataBaseProcessing.cpp; sourceTree = "<group>"; };
+		647FB56B1DD8F1B3000858AE /* var.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = var.cpp; sourceTree = "<group>"; };
+		647FB56D1DD8F320000858AE /* var.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = var.hpp; sourceTree = "<group>"; };
+		647FB56E1DD8F6D5000858AE /* dataBaseProcessing.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = dataBaseProcessing.hpp; sourceTree = "<group>"; };
+		647FB56F1DD91EBB000858AE /* trainSVM.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = trainSVM.cpp; sourceTree = "<group>"; };
+		647FB5711DD9236E000858AE /* trainSVM.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = trainSVM.hpp; sourceTree = "<group>"; };
+		64B02E2F1DD53D0B009C2168 /* lbp.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = lbp.hpp; sourceTree = "<group>"; };
+		64B02E301DD53D28009C2168 /* lbp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lbp.cpp; sourceTree = "<group>"; };
+		64B8DD601DDBCFB80001825F /* testSVM.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = testSVM.cpp; sourceTree = "<group>"; };
+		64B8DD621DDCC6830001825F /* testSVM.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = testSVM.hpp; sourceTree = "<group>"; };
+		64CDE2C61DEA3D2F00B4A644 /* flandmark_detector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = flandmark_detector.cpp; path = libflandmark/flandmark_detector.cpp; sourceTree = "<group>"; };
+		64CDE2C71DEA3D2F00B4A644 /* flandmark_detector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = flandmark_detector.h; path = libflandmark/flandmark_detector.h; sourceTree = "<group>"; };
+		64CDE2C81DEA3D2F00B4A644 /* liblbp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = liblbp.cpp; path = libflandmark/liblbp.cpp; sourceTree = "<group>"; };
+		64CDE2C91DEA3D2F00B4A644 /* liblbp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = liblbp.h; path = libflandmark/liblbp.h; sourceTree = "<group>"; };
+		64CDE2CA1DEA3D2F00B4A644 /* msvc-compat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "msvc-compat.h"; path = "libflandmark/msvc-compat.h"; sourceTree = "<group>"; };
+		64D41E731DCFF8C900F8C3CB /* EmotionRecognition */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EmotionRecognition; sourceTree = BUILT_PRODUCTS_DIR; };
+		64D41E761DCFF8C900F8C3CB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64D41E701DCFF8C900F8C3CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64CDE2CD1DEA3D3600B4A644 /* flandmark */ = {
+			isa = PBXGroup;
+			children = (
+				64CDE2C61DEA3D2F00B4A644 /* flandmark_detector.cpp */,
+				64CDE2C71DEA3D2F00B4A644 /* flandmark_detector.h */,
+				64CDE2C81DEA3D2F00B4A644 /* liblbp.cpp */,
+				64CDE2C91DEA3D2F00B4A644 /* liblbp.h */,
+				64CDE2CA1DEA3D2F00B4A644 /* msvc-compat.h */,
+			);
+			name = flandmark;
+			sourceTree = "<group>";
+		};
+		64D41E6A1DCFF8C900F8C3CB = {
+			isa = PBXGroup;
+			children = (
+				64D41E751DCFF8C900F8C3CB /* EmotionRecognition */,
+				64D41E741DCFF8C900F8C3CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64D41E741DCFF8C900F8C3CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64D41E731DCFF8C900F8C3CB /* EmotionRecognition */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64D41E751DCFF8C900F8C3CB /* EmotionRecognition */ = {
+			isa = PBXGroup;
+			children = (
+				64CDE2CD1DEA3D3600B4A644 /* flandmark */,
+				64D41E761DCFF8C900F8C3CB /* main.cpp */,
+				64B02E2F1DD53D0B009C2168 /* lbp.hpp */,
+				64B02E301DD53D28009C2168 /* lbp.cpp */,
+				647FB5661DD78B3B000858AE /* faceDetection.cpp */,
+				647FB5681DD78BAD000858AE /* faceDetection.hpp */,
+				647FB5691DD8F061000858AE /* dataBaseProcessing.cpp */,
+				647FB56E1DD8F6D5000858AE /* dataBaseProcessing.hpp */,
+				647FB56B1DD8F1B3000858AE /* var.cpp */,
+				647FB56D1DD8F320000858AE /* var.hpp */,
+				647FB56F1DD91EBB000858AE /* trainSVM.cpp */,
+				647FB5711DD9236E000858AE /* trainSVM.hpp */,
+				64B8DD601DDBCFB80001825F /* testSVM.cpp */,
+				64B8DD621DDCC6830001825F /* testSVM.hpp */,
+			);
+			path = EmotionRecognition;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64D41E721DCFF8C900F8C3CB /* EmotionRecognition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64D41E7A1DCFF8C900F8C3CB /* Build configuration list for PBXNativeTarget "EmotionRecognition" */;
+			buildPhases = (
+				64D41E6F1DCFF8C900F8C3CB /* Sources */,
+				64D41E701DCFF8C900F8C3CB /* Frameworks */,
+				64D41E711DCFF8C900F8C3CB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmotionRecognition;
+			productName = EmotionRecognition;
+			productReference = 64D41E731DCFF8C900F8C3CB /* EmotionRecognition */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64D41E6B1DCFF8C900F8C3CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Raphael GRAILLE";
+				TargetAttributes = {
+					64D41E721DCFF8C900F8C3CB = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 64D41E6E1DCFF8C900F8C3CB /* Build configuration list for PBXProject "EmotionRecognition" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 64D41E6A1DCFF8C900F8C3CB;
+			productRefGroup = 64D41E741DCFF8C900F8C3CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64D41E721DCFF8C900F8C3CB /* EmotionRecognition */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64D41E6F1DCFF8C900F8C3CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64CDE2CB1DEA3D2F00B4A644 /* flandmark_detector.cpp in Sources */,
+				647FB56C1DD8F1B3000858AE /* var.cpp in Sources */,
+				647FB5701DD91EBB000858AE /* trainSVM.cpp in Sources */,
+				64B02E311DD53D28009C2168 /* lbp.cpp in Sources */,
+				64B8DD611DDBCFB80001825F /* testSVM.cpp in Sources */,
+				647FB56A1DD8F061000858AE /* dataBaseProcessing.cpp in Sources */,
+				64D41E771DCFF8C900F8C3CB /* main.cpp in Sources */,
+				647FB5671DD78B3C000858AE /* faceDetection.cpp in Sources */,
+				64CDE2CC1DEA3D2F00B4A644 /* liblbp.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		64D41E781DCFF8C900F8C3CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		64D41E791DCFF8C900F8C3CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		64D41E7B1DCFF8C900F8C3CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/Users/Raphael/Documents/Poly/Maitrise_S2/Applications_multimedias/Projet/EmotionRecognition/EmotionRecognition/libflandmark,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					/Users/Raphael/Documents/Poly/Maitrise_S2/Applications_multimedias/Projet/EmotionRecognition/EmotionRecognition/libflandmark,
+				);
+				OTHER_LDFLAGS = (
+					"-lopencv_calib3d",
+					"-lopencv_core",
+					"-lopencv_flann",
+					"-lopencv_legacy",
+					"-lopencv_highgui",
+					"-lopencv_imgproc",
+					"-lopencv_ml",
+					"-lopencv_objdetect",
+					"-lopencv_photo",
+					"-lopencv_stitching",
+					"-lopencv_superres",
+					"-lopencv_ts",
+					"-lopencv_video",
+					"-lopencv_videostab",
+					"-lopencv_ocl",
+					"-lopencv_nonfree",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		64D41E7C1DCFF8C900F8C3CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/Users/Raphael/Documents/Poly/Maitrise_S2/Applications_multimedias/Projet/EmotionRecognition/EmotionRecognition/libflandmark,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					/Users/Raphael/Documents/Poly/Maitrise_S2/Applications_multimedias/Projet/EmotionRecognition/EmotionRecognition/libflandmark,
+				);
+				OTHER_LDFLAGS = (
+					"-lopencv_calib3d",
+					"-lopencv_core",
+					"-lopencv_flann",
+					"-lopencv_legacy",
+					"-lopencv_highgui",
+					"-lopencv_imgproc",
+					"-lopencv_ml",
+					"-lopencv_objdetect",
+					"-lopencv_photo",
+					"-lopencv_stitching",
+					"-lopencv_superres",
+					"-lopencv_ts",
+					"-lopencv_video",
+					"-lopencv_videostab",
+					"-lopencv_ocl",
+					"-lopencv_nonfree",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64D41E6E1DCFF8C900F8C3CB /* Build configuration list for PBXProject "EmotionRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64D41E781DCFF8C900F8C3CB /* Debug */,
+				64D41E791DCFF8C900F8C3CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64D41E7A1DCFF8C900F8C3CB /* Build configuration list for PBXNativeTarget "EmotionRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64D41E7B1DCFF8C900F8C3CB /* Debug */,
+				64D41E7C1DCFF8C900F8C3CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64D41E6B1DCFF8C900F8C3CB /* Project object */;
+}
